@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<resource type="commerce/invoice">
+  <sections>
+    <section type="customer" id="1" createStamp="2015-12-01">
+      <values>
+        <value concept="firstname" value="Joe"/>
+        <value concept="lastname"  value="Johnson"/>
+      </values>
+    </section>
+
+    <section type="sale" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
+      <values>
+        <value concept="productcode" value="B001"/>
+        <value concept="quantity" value="2"/>
+        <value concept="unitprice" value="9.95"/>
+      </values>
+    </section>
+
+    <section type="sale" id="3" createStamp="2016-01-05" effectStamp="2016-01-05">
+      <values>
+        <value concept="productcode" value="C003"/>
+        <value concept="quantity" value="2"/>
+        <value concept="unitprice" value="9.95"/>
+      </values>
+    </section>
+
+  </sections>
+</resource>

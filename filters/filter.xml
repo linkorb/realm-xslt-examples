@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<filter>
+  <allow section_type="customer" concept="firstname" />
+  <allow section_type="customer" concept="lastname" />
+  <allow section_type="sale" concept="productcode" />
+  <allow section_type="sale" concept="quantity" />
+  <allow section_type="sale" concept="unitprice" />
+</filter>
