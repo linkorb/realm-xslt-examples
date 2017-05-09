@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resource type="hub/dossier">
+  <sections>
+    <section type="client" id="1" createStamp="2017-02-24">
+      <values>
+        <!-- bsn -->
+        <value concept="peri22-dataelement-10030" value="999999011" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030" />
+        <!-- geb datum -->
+        <value concept="peri22-dataelement-10040" value="1986-05-13" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10040"/>
+        <!-- etniciteit: Kaukasisch -->
+        <value concept="peri22-dataelement-10400" value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10400" code="12" codeSystem="2.16.840.1.113883.2.4.4.13.28" />
+      </values>
+    </section>
+
+    <!-- multiple sections could repeat here... -->
+
+  </sections>
+</resource>
