@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resource type="hub/dossier">
+  <sections>
+    <section type="client" id="1" createStamp="2016-12-01">
+      <values>
+        <value concept="peri22-dataelement-10030" dataType="identifier" shortName="burgerservicenummer" label="BSN" value="392548480" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030" />
+        <value concept="peri22-dataelement-10040" dataType="date" shortName="geboortedatum" label="Geboortedatum" value="1974-04-03" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10040" />
+        <value concept="peri22-dataelement-82360" dataType="string" shortName="roepnaam" label="Roepnaam" value="Theressa" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82360" />
+        <value concept="peri22-dataelement-10042" dataType="string" shortName="voornamen" label="Voornamen" value="Hendrika" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10042" />
+      </values>
+    </section>
+    <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
+      <values>
+        <value concept="peri22-dataelement-20010" dataType="count" shortName="graviditeit" label="Graviditeit" value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010" />
+        <value concept="peri22-dataelement-20290" dataType="datetime" shortName="datum_start_zorgverantwoordelijkheid" label="Start datum dossier" value="2016-01-05" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20290" />
+        <value concept="peri22-dataelement-20305" dataType="code" shortName="conclusie_risicostatus_na_intake" label="Conclusie risicostatus na intake" value="1" displayValue="1e lijn (VIL A)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20305" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.26" />
+        <value concept="peri22-dataelement-82275" dataType="code" shortName="hypertensieve_aandoening" label="Hyp. Tensie" value="48194001" displayValue="Pregnancy-induced hypertension (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82275" code="48194001" codeSystem="2.16.840.1.113883.6.96" />
+      </values>
+    </section>
+  </sections>
+</resource>
