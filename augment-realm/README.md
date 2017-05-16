@@ -17,3 +17,7 @@ Objectives:
 
 * We need an augment-realm.xslt file (XSLT1.0 if possible) that takes input.xml and realm.xml and produces output.xml
 * Please include an example command-line that demonstrates the transformation.
+
+Usage:
+
+	xsltproc --stringparam realm realm.xml --stringparam lang nl-NL realm.xslt input.xml
