@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<resource type="hub/dossier">
+  <sections>
+    <section type="client" id="1" createStamp="2016-12-01">
+      <values>
+	<!-- note: this should fail schematron, `peri22-dataelement-91919` does not exist in realm.xml -->
+        <value concept="peri22-dataelement-91919" value="392548480"/>
+        <value concept="peri22-dataelement-10040" value="1974-04-03"/>
+        <value concept="peri22-dataelement-82360" value="Theressa"/>
+        <value concept="peri22-dataelement-10042" value="Hendrika"/>
+      </values>
+    </section>
+    <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
+      <values>
+        <value concept="peri22-dataelement-20010" value="3"/>
+        <value concept="peri22-dataelement-20290" value="2016-01-05"/>
+        <value concept="peri22-dataelement-20305" value="1"/>
+        <value concept="peri22-dataelement-82275" value="48194001" />
+      </values>
+    </section>
+  </sections>
+</resource>
