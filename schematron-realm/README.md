@@ -22,3 +22,14 @@ Objectives:
 	* Error: invalid date value used peri22-dataelement-10040 (geboortedatum) used in section "client" (id: 1)
 * Please include an example command-line that demonstrates the transformation.
 
+
+Creating the schematron xslt:
+
+    xsltproc realm2schematron.xslt realm.xml  > realm.sch
+    xsltproc iso_dsdl_include.xsl realm.sch > step1.xsl
+    xsltproc iso_abstract_expand.xsl step1.xsl > step2.xsl
+    xsltproc iso_svrl_for_xslt1.xsl step2.xsl > realm-schematron.xsl
+
+Validating input files:
+
+    xsltproc realm-schematron.xsl input_error_unknown_concept.xml
