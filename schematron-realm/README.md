@@ -18,7 +18,7 @@ Objectives:
 * We need an schematron file (XSLT1.0 if possible) that tests input.xml and realm.xml outputs schematron report
 * The schematron error should say what section (type+id) and value.concept caused the error. It should display the concept.shortName in the error message. For example
 	* Error: unknown code used for peri22-dataelement-82275 (hypertensieve_aandoening) in section "client" (id: 1). Code 999999 is unknown in codelist HypertensieveAandoening
-	* Error: unknown concept used (peri22-dataelement-91919 used in section "client" (id: 1). 
-	* Error: invalid date value used peri22-dataelement-10040 (geboortedatum) used in section "client" (id: 1) 
+	* Error: unknown concept used (peri22-dataelement-91919 used in section "client" (id: 1).
+	* Error: invalid date value used peri22-dataelement-10040 (geboortedatum) used in section "client" (id: 1)
 * Please include an example command-line that demonstrates the transformation.
 
