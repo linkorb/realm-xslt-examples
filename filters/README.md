@@ -14,3 +14,7 @@ Objectives:
 
 * We need a filter.xslt file (XSLT1.0 if possible) that takes input.xml and filter.xml and produces output.xml
 * Please include an example command-line that demonstrates the transformation.
+
+Usage:
+
+    xsltproc filters.xslt --stringparam filter filter.xml input.xml
